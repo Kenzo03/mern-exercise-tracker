@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const exercisesRouter = require('./routes/exercises');
 const usersRouter = require('./routes/users');
 
-
 require('dotenv').config();
 
 const app = express();
